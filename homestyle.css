@@ -1,0 +1,25 @@
+      
+body { 
+    font-family: Verdana; 
+    font-size: 12px; 
+    color: #444; 
+} 
+  
+  
+#container { 
+    width: 700px; 
+    margin: 150px auto; 
+    background-color: #eee; 
+    overflow: hidden; /* Set overflow: hidden to clear the floats on #main and #sidebar */
+    padding: 15px; 
+} 
+  
+    #main { 
+        width: 490px; 
+        float: left; 
+    } 
+  
+    #sidebar { 
+        width: 200px; 
+        float: left; 
+    }
